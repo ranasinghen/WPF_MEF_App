@@ -14,6 +14,7 @@ namespace PluginCalculator
             _calculateCommand = new DelegateCommand(CalculateSUM);
         }
 
+        //Calculate Sum
         private void CalculateSUM()
         {
             Sum = NumberOne + NumberTwo;
